@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/gradient_background">
+
+    <!-- A TextView for the app title with shadow -->
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Static Weather App"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:shadowColor="#000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4"
+        android:layout_gravity="center"/>
+
+    <!-- Button for New York -->
+    <Button
+        android:id="@+id/button_new_york"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New York"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="16dp"
+        android:elevation="4dp"/>
+
+    <!-- Button for Los Angeles -->
+    <Button
+        android:id="@+id/button_los_angeles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Los Angeles"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="16dp"
+        android:elevation="4dp"/>
+
+    <!-- Button for Chicago -->
+    <Button
+        android:id="@+id/button_chicago"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chicago"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="16dp"
+        android:elevation="4dp"/>
+
+    <!-- Button for Houston -->
+    <Button
+        android:id="@+id/button_houston"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Houston"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="16dp"
+        android:elevation="4dp"/>
+
+    <!-- FrameLayout for Fragment -->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"
+        android:elevation="8dp"
+        android:background="@android:color/white"
+        android:padding="16dp"/>
+</LinearLayout>
+
+
+
